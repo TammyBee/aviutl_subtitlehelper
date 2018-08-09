@@ -71,6 +71,11 @@
 （ごちゃまぜドロップスはPSDToolKitに同梱されています。）  
 PSDToolKitを用いる場合、設定によっては競合する可能性があります。
 
+## ダウンロード
+
+以下のリンクの「SubtitleHelper_X_Y_Z.zip」をダウンロードしてください。
+https://github.com/TammyBee/aviutl_subtitlehelper/releases
+
 ## インストール方法
 
 このインストール方法は[PSDToolKitのチュートリアルの方法](https://oov.github.io/aviutl_psdtoolkit/tutorial.html#.E3.82.A4.E3.83.B3.E3.82.B9.E3.83.88.E3.83.BC.E3.83.AB)でPSDToolKitを導入していることを想定しています。
