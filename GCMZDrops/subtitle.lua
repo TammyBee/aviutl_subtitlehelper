@@ -20,10 +20,10 @@ P.textmargin = 0
 P.aliasfilepattern = "([^_]+)_.+"
 
 -- 字幕エイリアスが入ってるフォルダのパス（※1）
-P.aliasdir = "Plugins\\Subtitles"
+P.aliasdir = "Subtitles"
 
 -- 字幕エイリアスファイルが見つからなかった場合のデフォルトエイリアスファイルのパス（※1）
-P.defaultaliaspath = "Plugins\\Subtitles\\default.exa"
+P.defaultaliaspath = "Subtitles\\default.exa"
 
 -- 音声オブジェクトとテキストオブジェクトをグループ化するか（「true」または「false」）
 -- グループ化する際、音声ファイルはcreatesoundexo関数で作成した音声オブジェクトに置き換わります。
