@@ -77,7 +77,7 @@ PSDToolKitを用いる場合、設定によっては競合する可能性があ�
 1. ダウンロードした「SubtitleHelper_X_Y_Z.zip」を解凍します。
 2. 解凍して出てきた「Subtitles」フォルダを「aviutl.exe」と同じ場所に配置してください。
 3. 解凍して出てきた「GCMZDrops」フォルダ内の「subtitle.lua」と「tmblib.lua」を  
-  AviUtlのフォルダ内にある「GCMZDrops」フォルダに上書きしてください。
+  AviUtlのフォルダ内にある「GCMZDrops」フォルダに入れてください。
   
 
 # FAQ
