@@ -48,10 +48,10 @@ function TMB.encodetosjis(str)
     local encoding = GCMZDrops.detectencoding(str)
     if (encoding == "utf8") or (encoding == "eucjp") or (encoding == "iso2022jp") then
         -- BOMÇÃèúãé
-        if enc == "utf8" and str:sub(1, 3) == "\239\187\191" then
+        if encoding == "utf8" and str:sub(1, 3) == "\239\187\191" then
             str = str:sub(4)
         end
-        str = GCMZDrops.convertencoding(str, enc, "sjis")
+        str = GCMZDrops.convertencoding(str, encoding, "sjis")
     end
     return str
 end
